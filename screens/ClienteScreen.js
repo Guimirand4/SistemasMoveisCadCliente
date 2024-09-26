@@ -37,21 +37,21 @@ export default function ClienteScreen({ navigation }) {
           label="ID"
           value={id}
           onChangeText={(text) => setId(text)}
-          style={{ width: "50%", marginBottom: 20 }}
+          style={styles.input}
           mode="outlined"
         />
         <TextInput
           label="Nome"
           value={nome}
           onChangeText={(text) => setNome(text)}
-          style={{ width: "50%", marginBottom: 20 }}
+          style={styles.input}
           mode="outlined"
         />
         <TextInput
           label="CPF"
           value={cpf}
           onChangeText={(text) => setCpf(text)}
-          style={{ width: "50%", marginBottom: 20 }}
+          style={styles.input}
           mode="outlined"
           keyboardType="numeric"
         />
@@ -59,28 +59,28 @@ export default function ClienteScreen({ navigation }) {
           label="Endereço"
           value={endereco}
           onChangeText={(text) => setEndereco(text)}
-          style={{ width: "50%", marginBottom: 20 }}
+          style={styles.input}
           mode="outlined"
         />
         <TextInput
           label="Bairro"
           value={bairro}
           onChangeText={(text) => setBairro(text)}
-          style={{ width: "50%", marginBottom: 20 }}
+          style={styles.input}
           mode="outlined"
         />
         <TextInput
           label="Cidade"
           value={cidade}
           onChangeText={(text) => setCidade(text)}
-          style={{ width: "50%", marginBottom: 20 }}
+          style={styles.input}
           mode="outlined"
         />
         <TextInput
           label="CEP"
           value={cep}
           onChangeText={(text) => setCep(text)}
-          style={{ width: "50%", marginBottom: 20 }}
+          style={styles.input}
           mode="outlined"
           keyboardType="numeric"
         />

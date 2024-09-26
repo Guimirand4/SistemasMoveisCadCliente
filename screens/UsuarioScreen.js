@@ -45,7 +45,7 @@ export default function UsuarioScreen({ navigation }) {
           value={senha}
           onChangeText={(text) => setSenha(text)}
           secureTextEntry
-          style={{ width: "50%", marginBottom: 20}}
+          style={{ width: "50%", marginBottom: 20 }}
           mode="outlined"
         />
 
