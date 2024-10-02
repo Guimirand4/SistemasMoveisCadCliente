@@ -9,13 +9,16 @@ export default StyleSheet.create({
   input: {
     width: "50%",
     marginBottom: 20,
+    marginLeft: "25%",
     backgroundColor: "#fff", // Fundo branco para campos de entrada
   },
   button: {
     width: "50%",
     paddingVertical: 5,
     borderRadius: 5,
-    backgroundColor: "#000", // Canto arredondado para botões
+    marginLeft: "25%",
+    backgroundColor: "#000",
+    alignContent: "center", // Canto arredondado para botões
   },
   header: {
     backgroundColor: "#6200ee", // Cor de fundo da barra superior

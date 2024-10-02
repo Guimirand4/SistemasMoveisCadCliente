@@ -33,6 +33,7 @@ export default function ClienteScreen({ navigation }) {
           {/* Aqui você pode adicionar lógica para exibir a foto */}
           <View style={styles.photo} />
         </View>
+
         <TextInput
           label="ID"
           value={id}
